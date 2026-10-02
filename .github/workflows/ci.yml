@@ -1,0 +1,70 @@
+name: CI
+
+# Runs on every push (any branch) and on PRs. The concurrency group cancels
+# superseded runs on the same ref, so a push+PR pair doesn't run twice.
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  typecheck:
+    name: typecheck
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4 # version comes from packageManager: pnpm@11.6.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Shared dist types first — app tsconfigs consume the built package.
+      - run: pnpm --filter @local-live-tutor/shared build
+      - run: pnpm typecheck
+
+  unit-tests:
+    name: unit-tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Root `pnpm test` builds shared, then runs all vitest suites. Fully
+      # deterministic: the LLM mock provider, no API key needed.
+      - run: pnpm test
+
+  e2e:
+    name: e2e
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm --filter @local-live-tutor/shared build
+      # E2E runs against the mock provider (playwright.config.ts boots its own
+      # backend on 8790 with an isolated DB and never loads .env), so no
+      # OpenRouter secret is needed in CI.
+      - run: pnpm --filter @local-live-tutor/frontend exec playwright install --with-deps chromium
+      - run: pnpm e2e
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: apps/frontend/playwright-report/
+          retention-days: 7

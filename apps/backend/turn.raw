@@ -1,0 +1,1065 @@
+event: delta
+data: {"text":"{"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"message"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"You"}
+
+event: delta
+data: {"text":"’ve"}
+
+event: delta
+data: {"text":" named"}
+
+event: delta
+data: {"text":" our"}
+
+event: delta
+data: {"text":" topic"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" and"}
+
+event: delta
+data: {"text":" that"}
+
+event: delta
+data: {"text":"’s"}
+
+event: delta
+data: {"text":" okay"}
+
+event: delta
+data: {"text":"."}
+
+event: delta
+data: {"text":" Try"}
+
+event: delta
+data: {"text":" just"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" first"}
+
+event: delta
+data: {"text":" change"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" pudd"}
+
+event: delta
+data: {"text":"le"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" vapor"}
+
+event: delta
+data: {"text":"."}
+
+event: delta
+data: {"text":" Which"}
+
+event: delta
+data: {"text":" word"}
+
+event: delta
+data: {"text":" fits"}
+
+event: delta
+data: {"text":"?\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"response"}
+
+event: delta
+data: {"text":"_type"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"quiz"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"student"}
+
+event: delta
+data: {"text":"_action"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Choose"}
+
+event: delta
+data: {"text":" one"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" ev"}
+
+event: delta
+data: {"text":"aporation"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" cond"}
+
+event: delta
+data: {"text":"ensation"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" or"}
+
+event: delta
+data: {"text":" precipitation"}
+
+event: delta
+data: {"text":".\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"hint"}
+
+event: delta
+data: {"text":"_level"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"det"}
+
+event: delta
+data: {"text":"ected"}
+
+event: delta
+data: {"text":"_progress"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"The"}
+
+event: delta
+data: {"text":" student"}
+
+event: delta
+data: {"text":" recognizes"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" topic"}
+
+event: delta
+data: {"text":" but"}
+
+event: delta
+data: {"text":" is"}
+
+event: delta
+data: {"text":" not"}
+
+event: delta
+data: {"text":" yet"}
+
+event: delta
+data: {"text":" selecting"}
+
+event: delta
+data: {"text":" a"}
+
+event: delta
+data: {"text":" process"}
+
+event: delta
+data: {"text":" name"}
+
+event: delta
+data: {"text":".\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"mis"}
+
+event: delta
+data: {"text":"con"}
+
+event: delta
+data: {"text":"ception"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"The"}
+
+event: delta
+data: {"text":" student"}
+
+event: delta
+data: {"text":" is"}
+
+event: delta
+data: {"text":" repeating"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" topic"}
+
+event: delta
+data: {"text":" sentence"}
+
+event: delta
+data: {"text":" instead"}
+
+event: delta
+data: {"text":" of"}
+
+event: delta
+data: {"text":" naming"}
+
+event: delta
+data: {"text":" a"}
+
+event: delta
+data: {"text":" process"}
+
+event: delta
+data: {"text":".\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"should"}
+
+event: delta
+data: {"text":"_draw"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" true"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"white"}
+
+event: delta
+data: {"text":"board"}
+
+event: delta
+data: {"text":"_operations"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" ["}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"type"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"write"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"payload"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"x"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"4"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"y"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"6"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"text"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"You"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" we"}
+
+event: delta
+data: {"text":" are"}
+
+event: delta
+data: {"text":" learning"}
+
+event: delta
+data: {"text":" about"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" water"}
+
+event: delta
+data: {"text":" cycle"}
+
+event: delta
+data: {"text":" today"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"kind"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"answer"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" },"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"type"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"write"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"payload"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"x"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"4"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"y"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"1"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"text"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"P"}
+
+event: delta
+data: {"text":"uddle"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" vapor"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" ev"}
+
+event: delta
+data: {"text":"aporation"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" cond"}
+
+event: delta
+data: {"text":"ensation"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" or"}
+
+event: delta
+data: {"text":" precipitation"}
+
+event: delta
+data: {"text":"?\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"kind"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"question"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" ],"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"answer"}
+
+event: delta
+data: {"text":"_re"}
+
+event: delta
+data: {"text":"ve"}
+
+event: delta
+data: {"text":"aled"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" false"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"subject"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"science"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"quiz"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"question"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"P"}
+
+event: delta
+data: {"text":"uddle"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" vapor"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" ev"}
+
+event: delta
+data: {"text":"aporation"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" cond"}
+
+event: delta
+data: {"text":"ensation"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":" or"}
+
+event: delta
+data: {"text":" precipitation"}
+
+event: delta
+data: {"text":"?\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"choices"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" ["}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Ev"}
+
+event: delta
+data: {"text":"aporation"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Cond"}
+
+event: delta
+data: {"text":"ensation"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Prec"}
+
+event: delta
+data: {"text":"ip"}
+
+event: delta
+data: {"text":"itation"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" ],"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"answer"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Ev"}
+
+event: delta
+data: {"text":"aporation"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"}"}
+

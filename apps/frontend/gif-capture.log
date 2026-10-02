@@ -1,0 +1,13 @@
+captured 77 frames in 25s
+[in#0 @ 0000021213ab0040] Error opening input: No such file or directory
+Error opening input file C:\Users\dosta\Downloads\Local.
+Error opening input files: No such file or directory
+C:\Users\dosta\Downloads\Local Live Tutor\apps\frontend\e2e\capture-hero-gif.mts:32
+  if (result.status !== 0) throw new Error(`ffmpeg ${args.join(" ")} failed`);
+                                 ^
+
+Error: ffmpeg -framerate 8 -i C:\Users\dosta\Downloads\Local Live Tutor\.giff-frames\f%05d.png -vf fps=8,scale=960:-1:flags=lanczos,palettegen=max_colors=128 C:\Users\dosta\Downloads\Local Live Tutor\.giff-frames\palette.png failed
+    at ffmpeg (C:\Users\dosta\Downloads\Local Live Tutor\apps\frontend\e2e\capture-hero-gif.mts:32:34)
+    at <anonymous> (C:\Users\dosta\Downloads\Local Live Tutor\apps\frontend\e2e\capture-hero-gif.mts:109:1)
+
+Node.js v24.16.0

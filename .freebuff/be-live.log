@@ -1,0 +1,242 @@
+
+> @local-live-tutor/backend@0.1.0 dev
+> tsx watch src/server.ts
+
+{"level":30,"time":1789408119654,"pid":15656,"hostname":"Dostam","msg":"Auto-saved 40 idle lesson(s) at boot"}
+{"level":30,"time":1789408120160,"pid":15656,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789408120161,"pid":15656,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+{"level":30,"time":1789408180300,"pid":15656,"hostname":"Dostam","reqId":"req-1","req":{"method":"GET","url":"/api/settings","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":58026},"msg":"incoming request"}
+{"level":30,"time":1789408180304,"pid":15656,"hostname":"Dostam","reqId":"req-1","res":{"statusCode":200},"responseTime":4.294599999993807,"msg":"request completed"}
+{"level":30,"time":1789408180553,"pid":15656,"hostname":"Dostam","reqId":"req-2","req":{"method":"PATCH","url":"/api/settings","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":58028},"msg":"incoming request"}
+{"level":30,"time":1789408180556,"pid":15656,"hostname":"Dostam","reqId":"req-2","res":{"statusCode":200},"responseTime":2.7506999999968684,"msg":"request completed"}
+{"level":30,"time":1789408188259,"pid":15656,"hostname":"Dostam","reqId":"req-3","req":{"method":"POST","url":"/api/sessions","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":58448},"msg":"incoming request"}
+{"level":30,"time":1789408188262,"pid":15656,"hostname":"Dostam","reqId":"req-3","res":{"statusCode":201},"responseTime":2.4055999999982305,"msg":"request completed"}
+{"level":30,"time":1789408196436,"pid":15656,"hostname":"Dostam","reqId":"req-4","req":{"method":"POST","url":"/api/sessions","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":58450},"msg":"incoming request"}
+{"level":30,"time":1789408196438,"pid":15656,"hostname":"Dostam","reqId":"req-4","res":{"statusCode":201},"responseTime":1.6448999999993248,"msg":"request completed"}
+{"level":30,"time":1789408196836,"pid":15656,"hostname":"Dostam","reqId":"req-5","req":{"method":"POST","url":"/api/sessions//messages","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":58452},"msg":"incoming request"}
+{"level":30,"time":1789408196838,"pid":15656,"hostname":"Dostam","reqId":"req-5","res":{"statusCode":404},"responseTime":1.945400000011432,"msg":"request completed"}
+{"level":30,"time":1789408205528,"pid":15656,"hostname":"Dostam","reqId":"req-6","req":{"method":"POST","url":"/api/sessions","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":62655},"msg":"incoming request"}
+{"level":30,"time":1789408205529,"pid":15656,"hostname":"Dostam","reqId":"req-6","res":{"statusCode":201},"responseTime":1.1903000000020256,"msg":"request completed"}
+{"level":30,"time":1789408205933,"pid":15656,"hostname":"Dostam","reqId":"req-7","req":{"method":"POST","url":"/api/sessions/6dc42607-f6b4-4549-8ea3-858dcde00e87/messages","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":62657},"msg":"incoming request"}
+{"level":30,"time":1789408213224,"pid":15656,"hostname":"Dostam","reqId":"req-7","res":{"statusCode":201},"responseTime":7290.300600000002,"msg":"request completed"}
+{"level":30,"time":1789408244829,"pid":15656,"hostname":"Dostam","reqId":"req-8","req":{"method":"GET","url":"/api/sessions","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":52752},"msg":"incoming request"}
+{"level":30,"time":1789408244834,"pid":15656,"hostname":"Dostam","reqId":"req-8","res":{"statusCode":200},"responseTime":5.315000000002328,"msg":"request completed"}
+{"level":30,"time":1789408246179,"pid":15656,"hostname":"Dostam","reqId":"req-9","req":{"method":"GET","url":"/api/sessions/6dc42607-f6b4-4549-8ea3-858dcde00e87","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":52754},"msg":"incoming request"}
+{"level":30,"time":1789408246180,"pid":15656,"hostname":"Dostam","reqId":"req-9","res":{"statusCode":200},"responseTime":0.8105000000068685,"msg":"request completed"}
+{"level":30,"time":1789408257152,"pid":15656,"hostname":"Dostam","reqId":"req-a","req":{"method":"GET","url":"/api/sessions/6dc42607-f6b4-4549-8ea3-858dcde00e87/whiteboard","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":52757},"msg":"incoming request"}
+{"level":30,"time":1789408257154,"pid":15656,"hostname":"Dostam","reqId":"req-a","res":{"statusCode":200},"responseTime":1.606900000013411,"msg":"request completed"}
+{"level":30,"time":1789408268770,"pid":15656,"hostname":"Dostam","reqId":"req-b","req":{"method":"POST","url":"/api/sessions/6dc42607-f6b4-4549-8ea3-858dcde00e87/messages","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":52760},"msg":"incoming request"}
+{"level":30,"time":1789408276553,"pid":15656,"hostname":"Dostam","reqId":"req-b","res":{"statusCode":201},"responseTime":7783.358000000007,"msg":"request completed"}
+{"level":30,"time":1789408289494,"pid":15656,"hostname":"Dostam","reqId":"req-c","req":{"method":"DELETE","url":"/api/sessions/6dc42607-f6b4-4549-8ea3-858dcde00e87","host":"localhost:8787","remoteAddress":"127.0.0.1","remotePort":52764},"msg":"incoming request"}
+{"level":30,"time":1789408289496,"pid":15656,"hostname":"Dostam","reqId":"req-c","res":{"statusCode":204},"responseTime":1.7793999999994412,"msg":"request completed"}
+11:26:31 pm [tsx] change in ./..\..\packages\shared\dist\index.js Restarting...
+{"level":30,"time":1789408594941,"pid":10840,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789408594942,"pid":10840,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:27:16 pm [tsx] change in ./src\db\client.ts Restarting...
+{"level":30,"time":1789408638785,"pid":11464,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789408638785,"pid":11464,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:27:28 pm [tsx] change in ./src\db\schema.ts Restarting...
+{"level":30,"time":1789408651302,"pid":11216,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789408651303,"pid":11216,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:34:00 pm [tsx] change in ./src\app.ts Restarting...
+{"level":30,"time":1789409043343,"pid":16652,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409043344,"pid":16652,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:34:08 pm [tsx] change in ./src\routes\index.ts Restarting...
+{"level":30,"time":1789409051076,"pid":22284,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409051076,"pid":22284,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:36:07 pm [tsx] change in ./src\services\tutoring\tutoring.ts Restarting...
+{"level":30,"time":1789409169643,"pid":21060,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409169643,"pid":21060,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:36:31 pm [tsx] change in ./src\routes\index.ts Restarting...
+{"level":30,"time":1789409194084,"pid":22176,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409194084,"pid":22176,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:36:41 pm [tsx] change in ./src\app.ts Restarting...
+{"level":30,"time":1789409204409,"pid":6656,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409204409,"pid":6656,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:37:53 pm [tsx] change in ./src\services\tutoring\tutoring.ts Restarting...
+{"level":30,"time":1789409275988,"pid":22068,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409275989,"pid":22068,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:38:40 pm [tsx] change in ./src\routes\index.ts Restarting...
+{"level":30,"time":1789409322673,"pid":8696,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409322675,"pid":8696,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:39:12 pm [tsx] change in ./src\services\tutoring\tutoring.ts Restarting...
+{"level":30,"time":1789409355023,"pid":12388,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409355024,"pid":12388,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:39:38 pm [tsx] change in ./src\services\tutoring\tutoring.ts Restarting...
+{"level":30,"time":1789409381155,"pid":18420,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409381156,"pid":18420,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:41:27 pm [tsx] change in ./src\services\tutoring\tutoring.ts Restarting...
+{"level":30,"time":1789409489917,"pid":15332,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409489917,"pid":15332,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:41:45 pm [tsx] change in ./src\services\tutoring\tutoring.ts Restarting...
+{"level":30,"time":1789409507654,"pid":19172,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789409507655,"pid":19172,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+11:59:40 pm [tsx] change in ./src\services\llm\mock.ts Restarting...
+{"level":30,"time":1789410583493,"pid":716,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789410583494,"pid":716,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+12:13:50 am [tsx] change in ./src\services\tutoring\feedback.ts Restarting...
+{"level":30,"time":1789411433953,"pid":12284,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789411433953,"pid":12284,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+12:27:30 am [tsx] change in ./..\..\packages\shared\dist\prompts.js Restarting...
+{"level":30,"time":1789412253053,"pid":19008,"hostname":"Dostam","msg":"Swept 2 abandoned session(s) at boot"}
+{"level":30,"time":1789412253876,"pid":19008,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789412253876,"pid":19008,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+{"level":30,"time":1789415052666,"pid":19008,"hostname":"Dostam","reqId":"req-1","req":{"method":"GET","url":"/api/profiles","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59207},"msg":"incoming request"}
+{"level":30,"time":1789415052691,"pid":19008,"hostname":"Dostam","reqId":"req-1","res":{"statusCode":200},"responseTime":22.1316000004299,"msg":"request completed"}
+{"level":30,"time":1789415052696,"pid":19008,"hostname":"Dostam","reqId":"req-2","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59208},"msg":"incoming request"}
+{"level":30,"time":1789415052772,"pid":19008,"hostname":"Dostam","reqId":"req-3","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59209},"msg":"incoming request"}
+{"level":30,"time":1789415052775,"pid":19008,"hostname":"Dostam","reqId":"req-3","res":{"statusCode":200},"responseTime":2.017400000244379,"msg":"request completed"}
+{"level":30,"time":1789415052775,"pid":19008,"hostname":"Dostam","reqId":"req-4","req":{"method":"GET","url":"/api/srs/due","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59210},"msg":"incoming request"}
+{"level":30,"time":1789415052780,"pid":19008,"hostname":"Dostam","reqId":"req-4","res":{"statusCode":200},"responseTime":4.705699999816716,"msg":"request completed"}
+{"level":30,"time":1789415052781,"pid":19008,"hostname":"Dostam","reqId":"req-5","req":{"method":"GET","url":"/api/profiles","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59211},"msg":"incoming request"}
+{"level":30,"time":1789415052783,"pid":19008,"hostname":"Dostam","reqId":"req-5","res":{"statusCode":200},"responseTime":2.0883999997749925,"msg":"request completed"}
+{"level":30,"time":1789415052787,"pid":19008,"hostname":"Dostam","reqId":"req-6","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59212},"msg":"incoming request"}
+{"level":30,"time":1789415052789,"pid":19008,"hostname":"Dostam","reqId":"req-6","res":{"statusCode":200},"responseTime":1.2402000003494322,"msg":"request completed"}
+{"level":30,"time":1789415052790,"pid":19008,"hostname":"Dostam","reqId":"req-7","req":{"method":"GET","url":"/api/srs/due","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59214},"msg":"incoming request"}
+{"level":30,"time":1789415052792,"pid":19008,"hostname":"Dostam","reqId":"req-7","res":{"statusCode":200},"responseTime":1.2382000000216067,"msg":"request completed"}
+{"level":30,"time":1789415053199,"pid":19008,"hostname":"Dostam","reqId":"req-2","res":{"statusCode":200},"responseTime":502.16130000026897,"msg":"request completed"}
+{"level":30,"time":1789415053205,"pid":19008,"hostname":"Dostam","reqId":"req-8","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59217},"msg":"incoming request"}
+{"level":30,"time":1789415053206,"pid":19008,"hostname":"Dostam","reqId":"req-8","res":{"statusCode":200},"responseTime":1.3735000002197921,"msg":"request completed"}
+{"level":30,"time":1789415053214,"pid":19008,"hostname":"Dostam","reqId":"req-9","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59219},"msg":"incoming request"}
+{"level":30,"time":1789415053219,"pid":19008,"hostname":"Dostam","reqId":"req-9","res":{"statusCode":200},"responseTime":4.122899999842048,"msg":"request completed"}
+{"level":30,"time":1789415053227,"pid":19008,"hostname":"Dostam","reqId":"req-a","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":59221},"msg":"incoming request"}
+{"level":30,"time":1789415053228,"pid":19008,"hostname":"Dostam","reqId":"req-a","res":{"statusCode":200},"responseTime":1.5714999996125698,"msg":"request completed"}
+{"level":30,"time":1789415067589,"pid":19008,"hostname":"Dostam","reqId":"req-b","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53624},"msg":"incoming request"}
+{"level":30,"time":1789415067590,"pid":19008,"hostname":"Dostam","reqId":"req-b","res":{"statusCode":200},"responseTime":1.0276999999769032,"msg":"request completed"}
+{"level":30,"time":1789415082337,"pid":19008,"hostname":"Dostam","reqId":"req-c","req":{"method":"POST","url":"/api/sessions","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53630},"msg":"incoming request"}
+{"level":30,"time":1789415082347,"pid":19008,"hostname":"Dostam","reqId":"req-c","res":{"statusCode":201},"responseTime":9.90749999973923,"msg":"request completed"}
+{"level":30,"time":1789415082374,"pid":19008,"hostname":"Dostam","reqId":"req-d","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53633},"msg":"incoming request"}
+{"level":30,"time":1789415082376,"pid":19008,"hostname":"Dostam","reqId":"req-d","res":{"statusCode":200},"responseTime":1.0529999998398125,"msg":"request completed"}
+{"level":30,"time":1789415082376,"pid":19008,"hostname":"Dostam","reqId":"req-e","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53634},"msg":"incoming request"}
+{"level":30,"time":1789415082378,"pid":19008,"hostname":"Dostam","reqId":"req-e","res":{"statusCode":200},"responseTime":1.4064000002108514,"msg":"request completed"}
+{"level":30,"time":1789415082382,"pid":19008,"hostname":"Dostam","reqId":"req-f","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53636},"msg":"incoming request"}
+{"level":30,"time":1789415082382,"pid":19008,"hostname":"Dostam","reqId":"req-f","res":{"statusCode":200},"responseTime":0.4746000003069639,"msg":"request completed"}
+{"level":30,"time":1789415082383,"pid":19008,"hostname":"Dostam","reqId":"req-g","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53638},"msg":"incoming request"}
+{"level":30,"time":1789415082383,"pid":19008,"hostname":"Dostam","reqId":"req-g","res":{"statusCode":200},"responseTime":0.5270000002346933,"msg":"request completed"}
+{"level":30,"time":1789415082389,"pid":19008,"hostname":"Dostam","reqId":"req-h","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53640},"msg":"incoming request"}
+{"level":30,"time":1789415082392,"pid":19008,"hostname":"Dostam","reqId":"req-h","res":{"statusCode":200},"responseTime":3.048299999907613,"msg":"request completed"}
+{"level":30,"time":1789415082406,"pid":19008,"hostname":"Dostam","reqId":"req-i","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53642},"msg":"incoming request"}
+{"level":30,"time":1789415082409,"pid":19008,"hostname":"Dostam","reqId":"req-i","res":{"statusCode":200},"responseTime":3.175500000361353,"msg":"request completed"}
+{"level":30,"time":1789415082413,"pid":19008,"hostname":"Dostam","reqId":"req-j","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53644},"msg":"incoming request"}
+{"level":30,"time":1789415082414,"pid":19008,"hostname":"Dostam","reqId":"req-j","res":{"statusCode":200},"responseTime":0.8220999999903142,"msg":"request completed"}
+{"level":30,"time":1789415082909,"pid":19008,"hostname":"Dostam","reqId":"req-k","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53647},"msg":"incoming request"}
+{"level":30,"time":1789415082915,"pid":19008,"hostname":"Dostam","reqId":"req-k","res":{"statusCode":200},"responseTime":5.720100000035018,"msg":"request completed"}
+{"level":30,"time":1789415083494,"pid":19008,"hostname":"Dostam","reqId":"req-l","req":{"method":"POST","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53651},"msg":"incoming request"}
+{"level":30,"time":1789415083516,"pid":19008,"hostname":"Dostam","reqId":"req-m","req":{"method":"GET","url":"/api/stats","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53652},"msg":"incoming request"}
+{"level":30,"time":1789415083516,"pid":19008,"hostname":"Dostam","reqId":"req-m","res":{"statusCode":200},"responseTime":0.6289999997243285,"msg":"request completed"}
+{"level":30,"time":1789415089681,"pid":19008,"hostname":"Dostam","reqId":"req-l","res":{"statusCode":200},"responseTime":6187.417800000403,"msg":"request completed"}
+{"level":30,"time":1789415089686,"pid":19008,"hostname":"Dostam","reqId":"req-n","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53656},"msg":"incoming request"}
+{"level":30,"time":1789415089687,"pid":19008,"hostname":"Dostam","reqId":"req-n","res":{"statusCode":200},"responseTime":0.9794999998994172,"msg":"request completed"}
+{"level":30,"time":1789415089692,"pid":19008,"hostname":"Dostam","reqId":"req-o","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53658},"msg":"incoming request"}
+{"level":30,"time":1789415089693,"pid":19008,"hostname":"Dostam","reqId":"req-o","res":{"statusCode":200},"responseTime":0.8315999996848404,"msg":"request completed"}
+{"level":30,"time":1789415114731,"pid":19008,"hostname":"Dostam","reqId":"req-p","req":{"method":"POST","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53661},"msg":"incoming request"}
+{"level":30,"time":1789415121827,"pid":19008,"hostname":"Dostam","reqId":"req-p","res":{"statusCode":200},"responseTime":7095.80449999962,"msg":"request completed"}
+{"level":30,"time":1789415121831,"pid":19008,"hostname":"Dostam","reqId":"req-q","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53665},"msg":"incoming request"}
+{"level":30,"time":1789415121832,"pid":19008,"hostname":"Dostam","reqId":"req-q","res":{"statusCode":200},"responseTime":0.7294999998994172,"msg":"request completed"}
+{"level":30,"time":1789415121837,"pid":19008,"hostname":"Dostam","reqId":"req-r","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53667},"msg":"incoming request"}
+{"level":30,"time":1789415121838,"pid":19008,"hostname":"Dostam","reqId":"req-r","res":{"statusCode":200},"responseTime":1.052699999883771,"msg":"request completed"}
+{"level":30,"time":1789415152603,"pid":19008,"hostname":"Dostam","reqId":"req-s","req":{"method":"POST","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55209},"msg":"incoming request"}
+{"level":30,"time":1789415161490,"pid":19008,"hostname":"Dostam","reqId":"req-s","res":{"statusCode":200},"responseTime":8886.410699999891,"msg":"request completed"}
+{"level":30,"time":1789415161496,"pid":19008,"hostname":"Dostam","reqId":"req-t","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55212},"msg":"incoming request"}
+{"level":30,"time":1789415161497,"pid":19008,"hostname":"Dostam","reqId":"req-t","res":{"statusCode":200},"responseTime":0.7488000001758337,"msg":"request completed"}
+{"level":30,"time":1789415161501,"pid":19008,"hostname":"Dostam","reqId":"req-u","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55214},"msg":"incoming request"}
+{"level":30,"time":1789415161503,"pid":19008,"hostname":"Dostam","reqId":"req-u","res":{"statusCode":200},"responseTime":1.2393000000156462,"msg":"request completed"}
+{"level":30,"time":1789415180508,"pid":19008,"hostname":"Dostam","reqId":"req-v","req":{"method":"POST","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55216},"msg":"incoming request"}
+{"level":30,"time":1789415189707,"pid":19008,"hostname":"Dostam","reqId":"req-v","res":{"statusCode":200},"responseTime":9199.032200000249,"msg":"request completed"}
+{"level":30,"time":1789415189712,"pid":19008,"hostname":"Dostam","reqId":"req-w","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55218},"msg":"incoming request"}
+{"level":30,"time":1789415189713,"pid":19008,"hostname":"Dostam","reqId":"req-w","res":{"statusCode":200},"responseTime":1.0777000002563,"msg":"request completed"}
+{"level":30,"time":1789415189721,"pid":19008,"hostname":"Dostam","reqId":"req-x","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55220},"msg":"incoming request"}
+{"level":30,"time":1789415189722,"pid":19008,"hostname":"Dostam","reqId":"req-x","res":{"statusCode":200},"responseTime":0.8059999998658895,"msg":"request completed"}
+{"level":30,"time":1789415214809,"pid":19008,"hostname":"Dostam","reqId":"req-y","req":{"method":"POST","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":52000},"msg":"incoming request"}
+{"level":30,"time":1789415222592,"pid":19008,"hostname":"Dostam","reqId":"req-y","res":{"statusCode":200},"responseTime":7782.389599999879,"msg":"request completed"}
+{"level":30,"time":1789415222596,"pid":19008,"hostname":"Dostam","reqId":"req-z","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":52003},"msg":"incoming request"}
+{"level":30,"time":1789415222597,"pid":19008,"hostname":"Dostam","reqId":"req-z","res":{"statusCode":200},"responseTime":0.6790000000037253,"msg":"request completed"}
+{"level":30,"time":1789415222602,"pid":19008,"hostname":"Dostam","reqId":"req-10","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":52005},"msg":"incoming request"}
+{"level":30,"time":1789415222603,"pid":19008,"hostname":"Dostam","reqId":"req-10","res":{"statusCode":200},"responseTime":0.9419999998062849,"msg":"request completed"}
+{"level":30,"time":1789415238809,"pid":19008,"hostname":"Dostam","reqId":"req-11","req":{"method":"POST","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":52007},"msg":"incoming request"}
+{"level":30,"time":1789415249113,"pid":19008,"hostname":"Dostam","reqId":"req-11","res":{"statusCode":200},"responseTime":10304.530999999959,"msg":"request completed"}
+{"level":30,"time":1789415249118,"pid":19008,"hostname":"Dostam","reqId":"req-12","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":52009},"msg":"incoming request"}
+{"level":30,"time":1789415249119,"pid":19008,"hostname":"Dostam","reqId":"req-12","res":{"statusCode":200},"responseTime":1.1322999997064471,"msg":"request completed"}
+{"level":30,"time":1789415249127,"pid":19008,"hostname":"Dostam","reqId":"req-13","req":{"method":"GET","url":"/api/sessions/62f78cf3-f1ef-46b6-b180-4c3fc0901cca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":52011},"msg":"incoming request"}
+{"level":30,"time":1789415249128,"pid":19008,"hostname":"Dostam","reqId":"req-13","res":{"statusCode":200},"responseTime":0.7574000000022352,"msg":"request completed"}
+1:46:46 am [tsx] change in ./..\..\packages\shared\dist\index.js Restarting...
+{"level":30,"time":1789417009602,"pid":4888,"hostname":"Dostam","msg":"Auto-saved 1 idle lesson(s) at boot"}
+{"level":30,"time":1789417011419,"pid":4888,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789417011419,"pid":4888,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+1:47:31 am [tsx] change in ./..\..\packages\shared\dist\index.js Restarting...
+{"level":30,"time":1789417053930,"pid":15972,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789417053932,"pid":15972,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+1:47:35 am [tsx] change in ./..\..\packages\shared\dist\index.js Restarting...
+{"level":30,"time":1789417057019,"pid":20664,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789417057020,"pid":20664,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+1:47:48 am [tsx] change in ./..\..\packages\shared\dist\index.js Restarting...
+{"level":30,"time":1789417072230,"pid":2136,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789417072232,"pid":2136,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+1:47:55 am [tsx] change in ./..\..\packages\shared\dist\schemas.js Restarting...
+1:47:55 am [tsx] change in ./..\..\packages\shared\dist\index.js Restarting...
+{"level":30,"time":1789417077452,"pid":10672,"hostname":"Dostam","msg":"Server listening at http://127.0.0.1:8787"}
+{"level":30,"time":1789417077453,"pid":10672,"hostname":"Dostam","msg":"Local Live Tutor backend listening on http://127.0.0.1:8787"}
+{"level":30,"time":1789417084915,"pid":10672,"hostname":"Dostam","reqId":"req-1","req":{"method":"GET","url":"/api/profiles","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56939},"msg":"incoming request"}
+{"level":30,"time":1789417084921,"pid":10672,"hostname":"Dostam","reqId":"req-1","res":{"statusCode":200},"responseTime":5.050999999999476,"msg":"request completed"}
+{"level":30,"time":1789417084922,"pid":10672,"hostname":"Dostam","reqId":"req-2","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56940},"msg":"incoming request"}
+{"level":30,"time":1789417084955,"pid":10672,"hostname":"Dostam","reqId":"req-3","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56941},"msg":"incoming request"}
+{"level":30,"time":1789417084957,"pid":10672,"hostname":"Dostam","reqId":"req-3","res":{"statusCode":200},"responseTime":1.8755999999993946,"msg":"request completed"}
+{"level":30,"time":1789417084957,"pid":10672,"hostname":"Dostam","reqId":"req-4","req":{"method":"GET","url":"/api/srs/due","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56942},"msg":"incoming request"}
+{"level":30,"time":1789417084963,"pid":10672,"hostname":"Dostam","reqId":"req-4","res":{"statusCode":200},"responseTime":4.875699999998687,"msg":"request completed"}
+{"level":30,"time":1789417084966,"pid":10672,"hostname":"Dostam","reqId":"req-5","req":{"method":"GET","url":"/api/profiles","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56943},"msg":"incoming request"}
+{"level":30,"time":1789417084969,"pid":10672,"hostname":"Dostam","reqId":"req-5","res":{"statusCode":200},"responseTime":2.521099999999933,"msg":"request completed"}
+{"level":30,"time":1789417084970,"pid":10672,"hostname":"Dostam","reqId":"req-6","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56944},"msg":"incoming request"}
+{"level":30,"time":1789417084972,"pid":10672,"hostname":"Dostam","reqId":"req-6","res":{"statusCode":200},"responseTime":1.8315999999995256,"msg":"request completed"}
+{"level":30,"time":1789417084974,"pid":10672,"hostname":"Dostam","reqId":"req-7","req":{"method":"GET","url":"/api/srs/due","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":57755},"msg":"incoming request"}
+{"level":30,"time":1789417084976,"pid":10672,"hostname":"Dostam","reqId":"req-7","res":{"statusCode":200},"responseTime":2.0509000000001834,"msg":"request completed"}
+{"level":30,"time":1789417085338,"pid":10672,"hostname":"Dostam","reqId":"req-2","res":{"statusCode":200},"responseTime":415.65550000000076,"msg":"request completed"}
+{"level":30,"time":1789417085343,"pid":10672,"hostname":"Dostam","reqId":"req-8","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":63376},"msg":"incoming request"}
+{"level":30,"time":1789417085345,"pid":10672,"hostname":"Dostam","reqId":"req-8","res":{"statusCode":200},"responseTime":1.5097999999998137,"msg":"request completed"}
+{"level":30,"time":1789417085350,"pid":10672,"hostname":"Dostam","reqId":"req-9","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":65435},"msg":"incoming request"}
+{"level":30,"time":1789417085351,"pid":10672,"hostname":"Dostam","reqId":"req-9","res":{"statusCode":200},"responseTime":1.096799999999348,"msg":"request completed"}
+{"level":30,"time":1789417085356,"pid":10672,"hostname":"Dostam","reqId":"req-a","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":58497},"msg":"incoming request"}
+{"level":30,"time":1789417085357,"pid":10672,"hostname":"Dostam","reqId":"req-a","res":{"statusCode":200},"responseTime":1.1299999999991996,"msg":"request completed"}
+{"level":30,"time":1789417099896,"pid":10672,"hostname":"Dostam","reqId":"req-b","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":61259},"msg":"incoming request"}
+{"level":30,"time":1789417099898,"pid":10672,"hostname":"Dostam","reqId":"req-b","res":{"statusCode":200},"responseTime":1.9148000000022876,"msg":"request completed"}
+{"level":30,"time":1789417114894,"pid":10672,"hostname":"Dostam","reqId":"req-c","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":49223},"msg":"incoming request"}
+{"level":30,"time":1789417114896,"pid":10672,"hostname":"Dostam","reqId":"req-c","res":{"statusCode":200},"responseTime":1.8339000000050873,"msg":"request completed"}
+{"level":30,"time":1789417130790,"pid":10672,"hostname":"Dostam","reqId":"req-d","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":54976},"msg":"incoming request"}
+{"level":30,"time":1789417130791,"pid":10672,"hostname":"Dostam","reqId":"req-d","res":{"statusCode":200},"responseTime":0.9104000000006636,"msg":"request completed"}
+{"level":30,"time":1789417145795,"pid":10672,"hostname":"Dostam","reqId":"req-e","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":60755},"msg":"incoming request"}
+{"level":30,"time":1789417145795,"pid":10672,"hostname":"Dostam","reqId":"req-e","res":{"statusCode":200},"responseTime":0.6526000000012573,"msg":"request completed"}
+{"level":30,"time":1789417160804,"pid":10672,"hostname":"Dostam","reqId":"req-f","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":63306},"msg":"incoming request"}
+{"level":30,"time":1789417160806,"pid":10672,"hostname":"Dostam","reqId":"req-f","res":{"statusCode":200},"responseTime":1.5763000000006286,"msg":"request completed"}
+{"level":30,"time":1789417175764,"pid":10672,"hostname":"Dostam","reqId":"req-g","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":62763},"msg":"incoming request"}
+{"level":30,"time":1789417175765,"pid":10672,"hostname":"Dostam","reqId":"req-g","res":{"statusCode":200},"responseTime":1.6261000000085915,"msg":"request completed"}
+{"level":30,"time":1789417189894,"pid":10672,"hostname":"Dostam","reqId":"req-h","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":57858},"msg":"incoming request"}
+{"level":30,"time":1789417189895,"pid":10672,"hostname":"Dostam","reqId":"req-h","res":{"statusCode":200},"responseTime":0.9980999999970663,"msg":"request completed"}
+{"level":30,"time":1789417204892,"pid":10672,"hostname":"Dostam","reqId":"req-i","req":{"method":"GET","url":"/api/providers/health","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56607},"msg":"incoming request"}
+{"level":30,"time":1789417204893,"pid":10672,"hostname":"Dostam","reqId":"req-i","res":{"statusCode":200},"responseTime":0.7066999999951804,"msg":"request completed"}
+{"level":30,"time":1789417204935,"pid":10672,"hostname":"Dostam","reqId":"req-j","req":{"method":"POST","url":"/api/sessions","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":56737},"msg":"incoming request"}
+{"level":30,"time":1789417204942,"pid":10672,"hostname":"Dostam","reqId":"req-j","res":{"statusCode":201},"responseTime":7.088999999992666,"msg":"request completed"}
+{"level":30,"time":1789417204984,"pid":10672,"hostname":"Dostam","reqId":"req-k","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":51597},"msg":"incoming request"}
+{"level":30,"time":1789417204985,"pid":10672,"hostname":"Dostam","reqId":"req-k","res":{"statusCode":200},"responseTime":1.3300000000017462,"msg":"request completed"}
+{"level":30,"time":1789417204988,"pid":10672,"hostname":"Dostam","reqId":"req-l","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":51598},"msg":"incoming request"}
+{"level":30,"time":1789417204990,"pid":10672,"hostname":"Dostam","reqId":"req-l","res":{"statusCode":200},"responseTime":1.7894000000087544,"msg":"request completed"}
+{"level":30,"time":1789417204995,"pid":10672,"hostname":"Dostam","reqId":"req-m","req":{"method":"GET","url":"/api/settings","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":50061},"msg":"incoming request"}
+{"level":30,"time":1789417204997,"pid":10672,"hostname":"Dostam","reqId":"req-m","res":{"statusCode":200},"responseTime":1.6889999999984866,"msg":"request completed"}
+{"level":30,"time":1789417205002,"pid":10672,"hostname":"Dostam","reqId":"req-n","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":50918},"msg":"incoming request"}
+{"level":30,"time":1789417205004,"pid":10672,"hostname":"Dostam","reqId":"req-n","res":{"statusCode":200},"responseTime":1.963499999998021,"msg":"request completed"}
+{"level":30,"time":1789417205046,"pid":10672,"hostname":"Dostam","reqId":"req-o","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55043},"msg":"incoming request"}
+{"level":30,"time":1789417205051,"pid":10672,"hostname":"Dostam","reqId":"req-o","res":{"statusCode":200},"responseTime":4.240200000000186,"msg":"request completed"}
+{"level":30,"time":1789417205084,"pid":10672,"hostname":"Dostam","reqId":"req-p","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":63472},"msg":"incoming request"}
+{"level":30,"time":1789417205087,"pid":10672,"hostname":"Dostam","reqId":"req-p","res":{"statusCode":200},"responseTime":2.5093999999953667,"msg":"request completed"}
+{"level":30,"time":1789417205092,"pid":10672,"hostname":"Dostam","reqId":"req-q","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":54413},"msg":"incoming request"}
+{"level":30,"time":1789417205094,"pid":10672,"hostname":"Dostam","reqId":"req-q","res":{"statusCode":200},"responseTime":1.8631999999925029,"msg":"request completed"}
+{"level":30,"time":1789417205283,"pid":10672,"hostname":"Dostam","reqId":"req-r","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":58756},"msg":"incoming request"}
+{"level":30,"time":1789417205286,"pid":10672,"hostname":"Dostam","reqId":"req-r","res":{"statusCode":200},"responseTime":2.7102000000013504,"msg":"request completed"}
+{"level":30,"time":1789417205312,"pid":10672,"hostname":"Dostam","reqId":"req-s","req":{"method":"POST","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/messages/stream","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53947},"msg":"incoming request"}
+{"level":30,"time":1789417205331,"pid":10672,"hostname":"Dostam","reqId":"req-t","req":{"method":"GET","url":"/api/stats","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":53948},"msg":"incoming request"}
+{"level":30,"time":1789417205333,"pid":10672,"hostname":"Dostam","reqId":"req-t","res":{"statusCode":200},"responseTime":2.161099999997532,"msg":"request completed"}
+{"level":30,"time":1789417213451,"pid":10672,"hostname":"Dostam","reqId":"req-s","res":{"statusCode":200},"responseTime":8137.8492000000115,"msg":"request completed"}
+{"level":30,"time":1789417213456,"pid":10672,"hostname":"Dostam","reqId":"req-u","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/messages","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":55439},"msg":"incoming request"}
+{"level":30,"time":1789417213457,"pid":10672,"hostname":"Dostam","reqId":"req-u","res":{"statusCode":200},"responseTime":0.8876000000163913,"msg":"request completed"}
+{"level":30,"time":1789417213464,"pid":10672,"hostname":"Dostam","reqId":"req-v","req":{"method":"GET","url":"/api/sessions/5f8a37db-a756-4d82-87ae-7cb01bc502ca/whiteboard","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":51484},"msg":"incoming request"}
+{"level":30,"time":1789417213465,"pid":10672,"hostname":"Dostam","reqId":"req-v","res":{"statusCode":200},"responseTime":0.8059999999823049,"msg":"request completed"}
+{"level":30,"time":1789417345838,"pid":10672,"hostname":"Dostam","reqId":"req-w","req":{"method":"POST","url":"/api/engagement","host":"127.0.0.1:8787","remoteAddress":"127.0.0.1","remotePort":63389},"msg":"incoming request"}
+{"level":30,"time":1789417345848,"pid":10672,"hostname":"Dostam","reqId":"req-w","res":{"statusCode":201},"responseTime":9.880599999974947,"msg":"request completed"}

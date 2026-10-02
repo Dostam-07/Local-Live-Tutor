@@ -1,0 +1,421 @@
+@import "katex/dist/katex.min.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --shell: #201a14;
+  --frame: #a06a34;
+  --frame-dark: #7c4f24;
+}
+
+/* Skip link: first tab stop reaches the lesson without tabbing the chrome. */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: #f6c453;
+  color: #201a14;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.skip-link:focus-visible {
+  left: 0.5rem;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* App shell background. The inline <script> in index.html sets --shell on
+   the <html> synchronously (before React boots) so the shell is NEVER a plain
+   white flash on cold restart — the dark brown (#201a14) is always present.
+   Paper-themed setup pages (settings, history cards) use their own surface
+   colors, not the shell var. */
+body {
+  background: var(--shell, #201a14);
+}
+
+/* High-visibility focus for keyboard users (WCAG 2.4.7 — works on both the
+   dark shell and light paper pages). */
+:focus-visible {
+  outline: 3px solid #f6c453;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 5px rgba(32, 26, 20, 0.55);
+}
+
+/* Reduced motion: stop every decorative animation, keep the end states. */
+@media (prefers-reduced-motion: reduce) {
+  .chalk-in,
+  .xp-toast,
+  .level-up,
+  .badge-toast,
+  .mic-listening,
+  .mic-live,
+  .mic-speaking {
+    animation: none !important;
+  }
+}
+
+/* Warm paper grid backdrop for non-session pages. */
+.paper-grid-bg {
+  background-image:
+    linear-gradient(to right, rgba(229, 231, 235, 0.55) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(229, 231, 235, 0.55) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Spoken-message highlight (PRD §5.6). */
+.speaking {
+  @apply ring-2 ring-highlight bg-amber-50;
+}
+
+/* ---------- Chalkboard (board interior) ---------- */
+
+.chalkboard {
+  background-color: #22423a;
+  background-image:
+    radial-gradient(ellipse at 20% 25%, rgba(255, 255, 255, 0.05), transparent 55%),
+    radial-gradient(ellipse at 80% 75%, rgba(255, 255, 255, 0.04), transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.28));
+}
+
+.chalk-font {
+  font-family: "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive;
+  letter-spacing: 0.01em;
+}
+
+.chalk-text {
+  color: #f4f7f2;
+  text-shadow:
+    0 0 1px rgba(244, 247, 242, 0.55),
+    0 0 6px rgba(244, 247, 242, 0.22);
+}
+
+/* A freshly-chalked op fades in — the writing-on-the-board feel. */
+@keyframes chalk-in {
+  0% {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateY(2px) scale(0.995);
+  }
+  60% {
+    opacity: 0.85;
+    filter: blur(0.6px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0) scale(1);
+  }
+}
+
+.chalk-in {
+  animation: chalk-in 420ms ease-out both;
+}
+
+/* Mic states. */
+@keyframes mic-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 14px rgba(239, 68, 68, 0);
+  }
+}
+
+.mic-listening {
+  animation: mic-pulse 1.6s ease-out infinite;
+}
+
+/* Conversational listening (user spec §4): a CALM amber glow on the same
+   orb in the same place — voice is a conversation, not a mode swap. */
+@keyframes mic-live-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(246, 196, 83, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 8px rgba(246, 196, 83, 0);
+  }
+}
+
+.mic-live {
+  animation: mic-live-pulse 2.2s ease-out infinite;
+}
+
+@keyframes tutor-glow {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(246, 196, 83, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(246, 196, 83, 0);
+  }
+}
+
+.mic-speaking {
+  animation: tutor-glow 1.6s ease-out infinite;
+}
+
+.caption-shadow {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+/* tldraw: hide chrome, keep transparent over the green board. */
+.chalkboard .tlui-layout,
+.board-green .tlui-layout {
+  display: none;
+}
+.chalkboard .tl-container,
+.chalkboard .tl-theme__light,
+.chalkboard .tl-theme__dark,
+.chalkboard .tl-background,
+.board-green .tl-container,
+.board-green .tl-theme__light,
+.board-green .tl-theme__dark,
+.board-green .tl-background {
+  background: transparent !important;
+}
+.chalkboard .tl-overlays,
+.board-green .tl-overlays {
+  background: transparent;
+}
+
+/* Hide the tldraw watermark/branding badge. */
+.chalkboard [class*="tl-watermark"],
+.chalkboard [class*="tl-branding"],
+.board-green [class*="tl-watermark"],
+.board-green [class*="tl-branding"] {
+  display: none !important;
+}
+
+/* ---------- Mockup theme (AI Teacher shell) ---------- */
+
+.mockup-shell {
+  background:
+    radial-gradient(1200px 500px at 50% -10%, rgba(160, 106, 52, 0.10), transparent 60%),
+    var(--shell);
+}
+
+.mockup-title {
+  color: #f6c453;
+  font-family: "Segoe Print", "Comic Sans MS", "Chalkboard SE", cursive;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+/* Wooden frame around the chalkboard. */
+.chalk-frame {
+  border-radius: 18px;
+  background: linear-gradient(160deg, var(--frame) 0%, var(--frame-dark) 100%);
+  padding: 10px;
+  box-shadow:
+    0 18px 50px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+/* The board surface (green), inside the frame. */
+.board-green {
+  background-color: #22423a;
+  background-image:
+    radial-gradient(ellipse at 20% 25%, rgba(255, 255, 255, 0.05), transparent 55%),
+    radial-gradient(ellipse at 80% 75%, rgba(255, 255, 255, 0.04), transparent 50%),
+    radial-gradient(ellipse at 50% 50%, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.28));
+  border-radius: 10px;
+}
+
+/* Rounded dark answer bar over the board's bottom edge (mockup). */
+.answer-bar {
+  background: rgba(43, 41, 36, 0.94);
+  border-radius: 16px;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.35);
+}
+
+.answer-bar input {
+  color: #f0ead9;
+}
+
+.answer-bar input::placeholder {
+  color: #b5ac9c;
+  font-style: italic;
+}
+
+/* Action orb row. */
+.orb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.orb-button {
+  display: flex;
+  height: 3.25rem;
+  width: 3.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background: #efe9df;
+  font-size: 1.15rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+  transition: transform 120ms ease, background 120ms ease;
+  /* Touch hygiene: no double-tap zoom, no gray tap flash on mobile. */
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+.orb-button:disabled {
+  cursor: not-allowed;
+}
+
+/* Hover lift only for devices with a real pointer — on touch it sticks
+   after the tap and reads as a stuck active state. */
+@media (hover: hover) and (pointer: fine) {
+  .orb-button:hover:not(:disabled) {
+    transform: translateY(-2px);
+    background: #fffdf6;
+  }
+}
+
+/* Immediate pressed feedback for mouse, touch, and Enter/Space alike. */
+.orb-button:active:not(:disabled) {
+  transform: translateY(1px) scale(0.96);
+  background: #e3dccb;
+}
+
+/* Toggled-on orb (e.g. a running timer). A ring instead of an outline so a
+   keyboard focus outline on the same element stays visually distinct. */
+.orb-button.active {
+  box-shadow:
+    0 0 0 3px #f6c453,
+    0 6px 16px rgba(0, 0, 0, 0.35);
+}
+
+.orb-button.mic-active {
+  background: #f6c453;
+}
+
+.orb-label {
+  font-size: 0.72rem;
+  color: #cfc6b8;
+}
+
+/* Short viewports (landscape phones, small preview panes): compact orbs so
+   the row + speech bubble fit without scrolling or clipped labels. */
+@media (max-height: 560px) {
+  .orb-button {
+    height: 2.75rem; /* 44px — Apple HIG touch minimum, still saves 8px/orb */
+    width: 2.75rem;
+    font-size: 0.95rem;
+  }
+
+  .orb-label {
+    font-size: 0.62rem;
+  }
+}
+
+/* Reduced motion: keep the color cues, drop the movement. */
+@media (prefers-reduced-motion: reduce) {
+  .orb-button {
+    transition: background 120ms ease;
+  }
+
+  .orb-button:active:not(:disabled) {
+    transform: none;
+  }
+}
+
+/* Tutor speech bubble below the orb row (mockup dark bar). */
+.speech-bubble {
+  background: rgba(43, 41, 36, 0.94);
+  color: #f0ead9;
+  border-radius: 16px;
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+
+/* Encouragement sticky note pinned inside the board corner. */
+.sticky-note {
+  background: rgba(244, 241, 232, 0.92);
+  color: #3c3a33;
+  border-radius: 10px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
+  transform: rotate(-1.2deg);
+}
+
+/* Floating "+10 XP" gamification toast (ADR-0006). */
+.xp-toast {
+  animation: xp-float 3.5s ease-out forwards;
+}
+
+@keyframes xp-float {
+  0% {
+    opacity: 0;
+    transform: translateY(6px) scale(0.9);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-14px);
+  }
+}
+
+/* Level-up celebration (ADR-0007 gamification). */
+.level-up {
+  animation: level-pop 4s ease-out forwards;
+}
+
+@keyframes level-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(10px) scale(0.7);
+  }
+  15% {
+    opacity: 1;
+    transform: translateY(0) scale(1.12);
+  }
+  30% {
+    transform: translateY(0) scale(1);
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-16px) scale(1);
+  }
+}
+
+/* Badge-unlocked toast (ADR-0007 gamification). */
+.badge-toast {
+  animation: badge-pop 5s ease-out forwards;
+}
+
+@keyframes badge-pop {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 12px) scale(0.85);
+  }
+  12% {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -10px) scale(1);
+  }
+}

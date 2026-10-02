@@ -1,0 +1,783 @@
+event: delta
+data: {"text":"{"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"message"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Nice"}
+
+event: delta
+data: {"text":"—"}
+
+event: delta
+data: {"text":"today"}
+
+event: delta
+data: {"text":" we"}
+
+event: delta
+data: {"text":"’re"}
+
+event: delta
+data: {"text":" tracing"}
+
+event: delta
+data: {"text":" how"}
+
+event: delta
+data: {"text":" water"}
+
+event: delta
+data: {"text":" moves"}
+
+event: delta
+data: {"text":" around"}
+
+event: delta
+data: {"text":" Earth"}
+
+event: delta
+data: {"text":"."}
+
+event: delta
+data: {"text":" Hint"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" pudd"}
+
+event: delta
+data: {"text":"le"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" vapor"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" clouds"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" rain"}
+
+event: delta
+data: {"text":"."}
+
+event: delta
+data: {"text":" Which"}
+
+event: delta
+data: {"text":" three"}
+
+event: delta
+data: {"text":" words"}
+
+event: delta
+data: {"text":" match"}
+
+event: delta
+data: {"text":" those"}
+
+event: delta
+data: {"text":" changes"}
+
+event: delta
+data: {"text":"?\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"response"}
+
+event: delta
+data: {"text":"_type"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"hint"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"student"}
+
+event: delta
+data: {"text":"_action"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Name"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" three"}
+
+event: delta
+data: {"text":" water"}
+
+event: delta
+data: {"text":"-cycle"}
+
+event: delta
+data: {"text":" processes"}
+
+event: delta
+data: {"text":" that"}
+
+event: delta
+data: {"text":" match"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" board"}
+
+event: delta
+data: {"text":" clue"}
+
+event: delta
+data: {"text":".\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"hint"}
+
+event: delta
+data: {"text":"_level"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"1"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"should"}
+
+event: delta
+data: {"text":"_draw"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" false"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"white"}
+
+event: delta
+data: {"text":"board"}
+
+event: delta
+data: {"text":"_operations"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" ["}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"type"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"write"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"payload"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"x"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"4"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"y"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"6"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"text"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"You"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" we"}
+
+event: delta
+data: {"text":" are"}
+
+event: delta
+data: {"text":" learning"}
+
+event: delta
+data: {"text":" about"}
+
+event: delta
+data: {"text":" the"}
+
+event: delta
+data: {"text":" water"}
+
+event: delta
+data: {"text":" cycle"}
+
+event: delta
+data: {"text":" today"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"kind"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"answer"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" },"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"type"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"write"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"payload"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" {"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"x"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"4"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"y"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":"4"}
+
+event: delta
+data: {"text":"8"}
+
+event: delta
+data: {"text":"0"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"text"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"Try"}
+
+event: delta
+data: {"text":" it"}
+
+event: delta
+data: {"text":":"}
+
+event: delta
+data: {"text":" Which"}
+
+event: delta
+data: {"text":" three"}
+
+event: delta
+data: {"text":" words"}
+
+event: delta
+data: {"text":" match"}
+
+event: delta
+data: {"text":" pudd"}
+
+event: delta
+data: {"text":"le"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" vapor"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" clouds"}
+
+event: delta
+data: {"text":" →"}
+
+event: delta
+data: {"text":" rain"}
+
+event: delta
+data: {"text":"?\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"       "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"kind"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"question"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"     "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"   "}
+
+event: delta
+data: {"text":" }"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" ],"}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"answer"}
+
+event: delta
+data: {"text":"_re"}
+
+event: delta
+data: {"text":"ve"}
+
+event: delta
+data: {"text":"aled"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" false"}
+
+event: delta
+data: {"text":","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"subject"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"science"}
+
+event: delta
+data: {"text":"\","}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":" "}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"topic"}
+
+event: delta
+data: {"text":"\":"}
+
+event: delta
+data: {"text":" \""}
+
+event: delta
+data: {"text":"water"}
+
+event: delta
+data: {"text":" cycle"}
+
+event: delta
+data: {"text":"\""}
+
+event: delta
+data: {"text":"\n"}
+
+event: delta
+data: {"text":"}"}
+
+event: done
+data: {"studentMessage":{"id":"162e3805-4258-4cd4-8e58-9d5cda7b5963","sessionId":"8ee2b43a-ef72-4a0c-8a9c-139320d0307c","role":"student","content":"we are learning about the water cycle today","inputType":"voice","createdAt":"2026-09-13T08:42:12.589Z"},"tutorMessage":{"id":"e8cc3450-6497-43b8-af8c-e70019f159b2","sessionId":"8ee2b43a-ef72-4a0c-8a9c-139320d0307c","role":"tutor","content":"Nice—today we’re tracing how water moves around Earth. Hint: puddle → vapor → clouds → rain. Which three words match those changes?","responseType":"hint","hintLevel":1,"answerRevealed":false,"subject":"science","createdAt":"2026-09-13T08:42:19.650Z"},"whiteboardOps":[{"id":"965af406-d28e-403d-a684-56128e6bdf31","sessionId":"8ee2b43a-ef72-4a0c-8a9c-139320d0307c","messageId":"e8cc3450-6497-43b8-af8c-e70019f159b2","actor":"tutor","type":"write","payload":{"x":40,"y":60,"text":"You: we are learning about the water cycle today","kind":"answer"},"createdAt":"2026-09-13T08:42:19.651Z"},{"id":"c459eb47-6dfe-48a3-b36f-c5732665d9f8","sessionId":"8ee2b43a-ef72-4a0c-8a9c-139320d0307c","messageId":"e8cc3450-6497-43b8-af8c-e70019f159b2","actor":"tutor","type":"write","payload":{"x":40,"y":480,"text":"Try it: Which three words match puddle → vapor → clouds → rain?","kind":"question"},"createdAt":"2026-09-13T08:42:19.651Z"}],"provider":"openrouter","model":"nex-agi/nex-n2.5-mini:free","fellBackToText":false,"session":{"id":"8ee2b43a-ef72-4a0c-8a9c-139320d0307c","title":"water cycle","subject":"science","gradeLevel":"middle_school","mode":"homework","helpLevel":"socratic","extractedProblem":"water cycle","currentGoal":"Name three main steps of the water cycle in your own words.","status":"active","provider":"openrouter","model":"unselected","xp":2,"quizScore":[0,1],"createdAt":"2026-09-12T20:08:55.870Z","updatedAt":"2026-09-13T08:42:19.652Z"},"newBadges":[]}
+

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+coverage/
+data/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+uploads/
+.env
+.env.local
+playwright-report/
+test-results/
+.DS_Store
+.giff-frames/
